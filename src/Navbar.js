@@ -18,11 +18,12 @@ export default function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            onClick={() => alert("Welcome to the Art Database. Enjoy all the arts brought to you by the Art Institute of Chicago!")}
           >
             <PaintIcon 
             style={{ height: 53, width: 36 }}
             alt="website logo"
-            onClick={() => alert("Welcome to the Art Database. Enjoy all the arts brought to you by the Art Institute of Chicago!")}
+            
             />
           </IconButton>
           <Button color="inherit" href='/'>Timeline </Button>

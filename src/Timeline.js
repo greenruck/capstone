@@ -27,6 +27,7 @@ function Timeline() {
 
           return (
             <VerticalTimelineElement
+              id={element.key}
               key={element.key}
               date={element.date}
               dateClassName="date"
