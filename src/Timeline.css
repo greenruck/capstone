@@ -1,0 +1,14 @@
+#imagecontainer {
+    height: 150px;
+    border: 1px solid;
+    background-size: 100% 100%;;
+    border-radius: 8px;
+  }
+body{
+    background-color: rgb(96, 180, 220);
+  }
+
+.title{
+    text-align: center;
+    color: white;
+}
