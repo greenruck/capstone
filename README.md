@@ -1,10 +1,66 @@
-# Getting Started with Create React App
+# Modern Art Timeline and Review
+
+This specialized page is designed to provide reserachers and students with a guide to modern art using the resources provided by the Art Institute of Chicago.
+
+## Description
+
+This application provides a detailed timeline of key modern arts movements. It also provides an overview of the movement and artworks associated. The user can also view larger images of the art and descriptions of the art styles by clicking on the learn more feature. There is also a serach function that allows users to request artwork based on a search term of their choice. The search reulsts provide details on each piece with the option to view additonal information on click. 
+
+## Getting Started
+
+### Dependencies
+
+* Art Institute of Chicago API:
+  https://api.artic.edu/api/v1/artworks
+  {additional fields are used within the application} 
+* Dependencies are found in package.json file
+* This React application uses Axios, Redux, React-Redux, React-Router-Dom, Material UI, and react-timeline.
+* This applicaiton is accesable via all web browsers.
+
+
+### Installing
+
+* npm i will install requirements for application via the package.json
+
+### Executing program
+
+* download required dependencies:
+  * npm i react-router-dom
+  * npm i axios
+  * npm i redux
+  * npm i react-redux
+  * npm i @mui/material @emotion/react @emotion/styled
+  * npm i react-vertical-timeline-component
+  * npm i 
+  * npm start
+
+
+
+## Help
+
+```
+
+## Authors
+
+Contributors names and contact info
+
+Drake Northington
+https://github.com/greenruck
+
+## Version History
+
+* 0.2
+    * Added to search feature
+* 0.1
+    * Initial Release
+
+
+
+#React Information 
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -19,52 +75,4 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
