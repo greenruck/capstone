@@ -12,7 +12,7 @@ This application provides a detailed timeline of key modern arts movements. It a
 
 * Art Institute of Chicago API:
   https://api.artic.edu/api/v1/artworks
-  additional fields are used within the application 
+  {additional fields are used within the application} 
 * Dependencies are found in package.json file
 * This React application uses Axios, Redux, React-Redux, React-Router-Dom, Material UI, and react-timeline.
 * This applicaiton is accesable via all web browsers.
