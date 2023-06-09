@@ -10,6 +10,8 @@ function CardCreator({image_id, title, description, id}) {
 
     if (description){
     const strippedDescription = description.replace(/<[^>]+>/g, '');
+
+    
     
 
 return (

@@ -34,6 +34,7 @@ function MovementDetails({ searchTerm }) {
              direction="row"
              justifyContent="space-evenly"
              alignItems="stretch"
+             rowGap={4}
              >
 
                 {searchResults.map(object => 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MetSearchForm from './MetSearch';
 import Grid from '@mui/material/Grid';
+import { spacing } from '@mui/system';
 import CardCreator from './Card';
 import "./Search.css";
 
@@ -48,6 +49,7 @@ function Search() {
              direction="row"
              justifyContent="space-evenly"
              alignItems="stretch"
+             rowGap={4}
              >
                 {searchResults.map(object => 
 
